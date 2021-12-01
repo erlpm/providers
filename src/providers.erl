@@ -155,9 +155,9 @@ help(#provider{opts=Opts
 
     case Opts of
         [] ->
-            io:format("Usage: rebar3 ~ts~ts~n", [StrNS, Name]);
+            io:format("Usage: epm ~ts~ts~n", [StrNS, Name]);
         _ ->
-            getopt:usage(Opts, "rebar3 " ++ StrNS ++ atom_to_list(Name), "", [])
+            getopt:usage(Opts, "epm " ++ StrNS ++ atom_to_list(Name), "", [])
     end.
 
 help(Name, Providers) when is_list(Name) ->

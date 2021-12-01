@@ -21,7 +21,7 @@
 %%%  This is a pretty simple topological sort for erlang. It was
 %%%  originally written for ermake by Joe Armstrong back in '98. It
 %%%  has been pretty heavily modified by Eric Merritt since '06 and
-%%%  modified again for relx/rebar3 by Tristan Sloughter.
+%%%  modified again for relx/epm by Tristan Sloughter.
 %%%
 %%%  A partial order on the set S is a set of pairs {Xi,Xj} such that
 %%%  some relation between Xi and Xj is obeyed.

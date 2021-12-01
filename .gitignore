@@ -1,4 +1,4 @@
-.rebar3
+.epm
 _*
 .eunit
 deps
@@ -10,7 +10,7 @@ priv
 ebin
 log
 erl_crash.dump
-.rebar
+.epm
 _rel
 logs
 *.swp

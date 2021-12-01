@@ -9,4 +9,4 @@ An Erlang providers library.
 Build
 -----
 
-    $ rebar compile
+    $ epm compile
